@@ -1,42 +1,106 @@
-{
-    "Trip Name": "2007 World Tour",
-    "Traveler": {
-        "name": "Fred Rogers", 
-        "contact": {
-            "email": "actionfred@somewhere.com",
-             "phone": "555-3344"
-        }
+{ "Jason's Assignment":
+    {
+        "Trip Name": "2007 World Tour",
+        "Traveler": {
+            "name": "Fred Rogers", 
+            "contact": {
+                "email": "actionfred@somewhere.com",
+                "phone": "555-3344"
+            }
+        },
+        "Destinations":[
+            {
+                "location": "Cancun, Benito Juárez, Mexico",
+                "arrivalDate": "2007-04-23",
+                "departureDate": "2007-04-27",
+                "activities": [
+                    {
+                        "title": "kite surfing",
+                        "time": "2007-04-25 9:00 AM"
+                    },
+                    {
+                        "title": "saving sea turtles",
+                        "time": "2007-04-26 2:30 AM"
+                    }
+                ]
+            },
+            {
+                "location": "Bucharest, Romania",
+                "arrivalDate": "2007-04-28",
+                "departureDate": "2007-04-30",
+                "activities": [
+                    {
+                        "title": "Bucharest city marathon",
+                        "time": "2007-04-29 7:00 AM"
+                    },
+                    {
+                        "title": "children's choir",
+                        "time": "2007-04-29 1:00 PM"
+                    }
+                ]
+            }
+        ]
     },
-    "Destinations":[
+
+"Josh's Assignment":
+    {
+        "name" : "Vacation",
+        "traveller": {
+            "name":"Barry",
+            "contact": {
+                "email": "Barry@email.com",
+                "phone": "555-555-5555"
+            }
+        },
+        "destinations": [
         {
-            "location": "Cancun, Benito Juárez, Mexico",
-            "arrivalDate": "2007-04-15",
-            "departureDate": "2007-04-26",
+            "location": "Cancun",
+            "arrivalDate": "2025-06-22",
+            "departureDate": "2025-06-30",
             "activities": [
                 {
-                    "title": "kite surfing",
-                    "time": "9:00 AM"
+                "title": "fishing",
+                "time": "10:00"
                 },
                 {
-                    "title": "saving sea turtles",
-                    "time": "2:30 AM"
+                "title": "rafting",
+                "time": "12:00"
                 }
             ]
         },
         {
-            "location": "Bucharest, Romania",
-            "arrivalDate": "2007-04-28",
-            "departureDate": "2007-04-30",
+            "location": "Paris",
+            "arrivalDate": "2025-08-19",
+            "departureDate": "2025-08-30",
+            "transportation": {"mode": "airplane", "cost": "$1368"},
             "activities": [
                 {
-                    "title": "Bucharest city marathon",
-                    "time": "7:00 AM"
+                    "title": "city tour",
+                    "time": "10:00"
                 },
                 {
-                    "title": "children's choir",
-                    "time": "1:00 PM"
+                    "title": "boat ride",
+                    "time": "12:00"
+                }
+            ]
+        },
+        {
+            "location": "Tokyo",
+            "arrivalDate": "2025-09-01",
+            "departureDate": "2025-09-07",
+            "transportation": {"mode": "airplane", "cost": "$1368"},
+            "activities": [
+                {
+                    "title": "walk in the park",
+                    "time": "11:00"
+                },
+                {
+                    "title": "visit a museum",
+                    "time": "1:00"
                 }
             ]
         }
     ]
+    }
 }
+
