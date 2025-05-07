@@ -1,0 +1,42 @@
+{
+    "Trip Name": "2007 World Tour",
+    "Traveler": {
+        "name": "Fred Rogers", 
+        "contact": {
+            "email": "actionfred@somewhere.com",
+             "phone": "555-3344"
+        }
+    },
+    "Destinations":[
+        {
+            "location": "Cancun, Benito Juárez, Mexico",
+            "arrivalDate": "2007-04-15",
+            "departureDate": "2007-04-26",
+            "activities": [
+                {
+                    "title": "kite surfing",
+                    "time": "9:00 AM"
+                },
+                {
+                    "title": "saving sea turtles",
+                    "time": "2:30 AM"
+                }
+            ]
+        },
+        {
+            "location": "Bucharest, Romania",
+            "arrivalDate": "2007-04-28",
+            "departureDate": "2007-04-30",
+            "activities": [
+                {
+                    "title": "Bucharest city marathon",
+                    "time": "7:00 AM"
+                },
+                {
+                    "title": "children's choir",
+                    "time": "1:00 PM"
+                }
+            ]
+        }
+    ]
+}
